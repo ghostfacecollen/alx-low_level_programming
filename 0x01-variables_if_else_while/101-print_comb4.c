@@ -16,7 +16,7 @@ int main(void)
 	{
 		while (j <= '8')
 		{
-			while(k <= '9')
+			while (k <= '9')
 			{
 				if (i < j && j < k)
 				{
