@@ -1,4 +1,4 @@
-#include "main.h"
+i#include "main.h"
 
 /**
 * print_diagonal - Draws a diagonal lines according parameter
@@ -20,7 +20,7 @@ void print_diagonal(int n)
 	{
 	for (x = 0; x < n; x++)
 	{
-	for (y = 0; y < n; y++)
+	for (y = 0; y < x; y++)
 	{
 	_putchar(32);
 	}
